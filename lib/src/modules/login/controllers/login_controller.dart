@@ -16,8 +16,7 @@ class LoginController extends GetxController {
   @override
   void onInit() {
 
-    final firebaseMessaging = FCM();
-    firebaseMessaging.setNotifications();
+
 
 
     getFcmToken();

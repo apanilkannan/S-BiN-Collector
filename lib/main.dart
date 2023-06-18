@@ -4,11 +4,14 @@ import 'package:get/get.dart';
 import 'package:s_bin_collector/src/common/prefernce_utils.dart';
 import 'package:s_bin_collector/src/routes/app_pages.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/foundation.dart';
 
 Future<void> main() async {
-  await NotificationController.initializeLocalNotifications();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  final fcmToken = await FirebaseMessaging.instance.getToken();
+  print(fcmToken);
   // Initialize SharedPrefs instance.
   await PreferenceUtils.init();
   runApp(const MyApp());

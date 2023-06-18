@@ -60,13 +60,13 @@ class MapController extends GetxController {
 
     Marker(
         onTap: () {
-          var data = {"device": "Bin 3", "location": "Atul finance",'Latitude':8.54,'Longitude': 76.88,'marker' : 02};
+          var data = {"device": "Bin 3", "location": "UST Global",'Latitude':8.54,'Longitude': 76.88,'marker' : 02};
           Get.toNamed(AppRoutes.markerDetail, arguments: data);
         },
         markerId: const MarkerId('3'),
         position: const LatLng(8.54, 76.88),
         infoWindow: const InfoWindow(
-          title: 'Atul Finance',
+          title: 'UST Global',
         )),
   ];
 

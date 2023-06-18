@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "775225688036-k3c2k9075l269sljq9s2e6oc7chb1mim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quote_master",
+            "certificate_hash": "f641ed5d097106a3710a7e879e9b6d1754e9d970"
+          }
+        },
+        {
+          "client_id": "775225688036-n82r6q7db8ahuqh6ji6iprvniffupplo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quote_master",
+            "certificate_hash": "1ea4adf13f5beeb1c7d7e8fc3fd761c0220e20f9"
+          }
+        },
+        {
           "client_id": "775225688036-vjpt6blfm2qm9f9cjchculn6js451ipd.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -32,10 +48,10 @@
               "client_type": 3
             },
             {
-              "client_id": "775225688036-m4jfvcjkni5bf0ajnitf36ot9g7l23ns.apps.googleusercontent.com",
+              "client_id": "775225688036-k3ledo4jp9ivrt9hp4m7g5g85r5nocps.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.quoteMaster"
+                "bundle_id": "com.example.sBinCollector"
               }
             }
           ]

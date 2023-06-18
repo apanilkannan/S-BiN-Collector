@@ -64,7 +64,7 @@ dependencies:
 
 
   # FOR GETTING FIREBASE CLOUD MESSAGING TOKEN
-  firebase_messaging: ^14.6.1
+  firebase_messaging: ^14.6.3
 
   # FOR SAVING THE DATA LOCALLY
   shared_preferences: ^2.1.0
